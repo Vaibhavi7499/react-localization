@@ -1,0 +1,43 @@
+@import "../style/color-variables.scss";
+
+
+.layout-container{
+    width: 100vw;
+  background-color: blanchedalmond;
+    display: flex;
+    justify-content: space-between;
+
+nav {
+  padding: 15px;
+
+  ul {
+    display: flex;
+
+    li {
+      margin-right: 20px;
+      list-style: none;
+      font-size: 20px;
+
+      a {
+        text-decoration: none;
+      }
+
+      .active {
+        border-bottom: 2px solid $active-nav;
+        padding-bottom: 3px;
+      }
+    }
+  }
+  button{
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+
+  button.selected{
+    background-color: $active-nav;
+    color:$white-color;
+  }
+}
+}

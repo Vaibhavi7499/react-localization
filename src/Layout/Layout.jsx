@@ -3,7 +3,7 @@ import "./Layout.css";
 import { useTranslation } from "react-i18next";
 
 const Layout = () => {
-  const { i18n } = useTranslation();
+  const { i18n } = useTranslation("Home");
 
   const languages = [
     {

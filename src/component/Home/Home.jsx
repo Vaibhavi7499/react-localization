@@ -4,9 +4,9 @@ import { HomeContext } from "../../contexts/HomeContext";
 import { useTranslation } from "react-i18next";
 
 const Home = () => {
-    const {t}= useTranslation();
-    
-    const {firstName,lastName ,mobNumber,address} = useContext(HomeContext);
+  const { t } = useTranslation("Home");
+
+  const { firstName, lastName, mobNumber, address } = useContext(HomeContext);
 
   return (
     <div className="home-container">

@@ -13,7 +13,7 @@ i18n
     fallbackLng: "en",
 
     returnObjects: true,
-    ns: ["Home", "About"],
+    ns: ["Home", "About","Employee"],
     // defaultNS: "Home",
     // resources: {
     //   en: {

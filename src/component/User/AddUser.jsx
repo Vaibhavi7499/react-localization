@@ -37,7 +37,7 @@ const AddUser = () => {
   return (
     <div className="col-md-6 m-auto mt-4">
       <div className="mb-3">
-        <label className="form-label">Emp Name :</label>
+        <label className="form-label">Employee Name :</label>
         <input
           type="text"
           className="form-control"

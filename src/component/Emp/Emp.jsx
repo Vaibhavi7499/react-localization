@@ -3,8 +3,10 @@ import "./Emp.css";
 import { useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { deleteEmp } from "../../Store/Slice/EmpSlice";
+import { useTranslation } from "react-i18next";
 
 const Emp = () => {
+  const {t} = useTranslation("Employee");
   const navigate = useNavigate();
 
   const empList = useSelector((state) => {
@@ -24,21 +26,21 @@ dispatch(deleteEmp(id))
   return (
     <div>
       <div className="head-container">
-        <h2>Employee Management System</h2>
+        <h2>{t("employeeManagemenySystem")}</h2>
         <button
           className="btn btn-primary"
           onClick={() => navigate("/adduser")}
         >
-          Add User
+          {t("addUser")}
         </button>
       </div>
       <table className="table mt-4">
         <thead>
           <tr>
-            <th scope="col">EmpName</th>
-            <th scope="col">EmpAddress</th>
-            <th scope="col">EmpEmail</th>
-            <th scope="col">Action</th>
+            <th scope="col">{t("employeeName")}</th>
+            <th scope="col">{t("employeeAddress")}</th>
+            <th scope="col">{t("employeeEmail")}</th>
+            <th scope="col">{t("action")}</th>
           </tr>
         </thead>
         <tbody>

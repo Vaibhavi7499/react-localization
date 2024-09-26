@@ -1,0 +1,10 @@
+{
+    "employeeManagemenySystem" : "Employee Management System",
+    "addUser" :"Add User",
+    "employeeName":"Employee Name",
+    "employeeAddress":"Employee Address",
+    "employeeEmail":"Employee Email",
+    "action":"Action",
+    "employee":"Employee"
+
+}

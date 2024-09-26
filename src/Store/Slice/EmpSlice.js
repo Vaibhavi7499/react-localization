@@ -30,6 +30,6 @@ const EmpSlice = createSlice({
   },
 });
 
-export const { addEmp, deleteEmp,updateEmp } = EmpSlice.actions;
+export const { addEmp, deleteEmp, updateEmp } = EmpSlice.actions;
 
 export default EmpSlice.reducer;

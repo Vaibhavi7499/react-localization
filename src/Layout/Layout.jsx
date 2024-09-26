@@ -30,6 +30,9 @@ const Layout = () => {
             <li>
               <NavLink to="/about">About</NavLink>
             </li>
+            <li>
+              <NavLink to="/emp">Employee</NavLink>
+            </li>
           </ul>
         </nav>
 

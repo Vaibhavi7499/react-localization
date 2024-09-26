@@ -1,0 +1,11 @@
+.head-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.head-container button{
+    margin-right: 80px;
+    border-radius: 20px;
+}

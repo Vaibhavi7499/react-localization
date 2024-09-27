@@ -4,6 +4,7 @@ import { addEmp, updateEmp } from "../../Store/Slice/EmpSlice";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate, useParams } from "react-router-dom";
 import { v4 as uuidv4 } from "uuid";
+import { useTranslation } from "react-i18next";
 
 const AddUser = () => {
   let [user, setUser] = useState({
@@ -13,6 +14,7 @@ const AddUser = () => {
     empEmail: "",
   });
 
+  const {t} = useTranslation("Employee");
   const dispatch = useDispatch();
   const params = useParams();
   const navigate = useNavigate();
@@ -37,7 +39,7 @@ const AddUser = () => {
   return (
     <div className="col-md-6 m-auto mt-4">
       <div className="mb-3">
-        <label className="form-label">Employee Name :</label>
+        <label className="form-label">{t("employeeName")}:</label>
         <input
           type="text"
           className="form-control"
@@ -46,7 +48,7 @@ const AddUser = () => {
         />
       </div>
       <div className="mb-3">
-        <label className="form-label">Address :</label>
+        <label className="form-label">{t("address")} :</label>
         <input
           type="text"
           className="form-control"
@@ -55,7 +57,7 @@ const AddUser = () => {
         />
       </div>
       <div className="mb-3">
-        <label className="form-label">Email :</label>
+        <label className="form-label">{t("email")} :</label>
         <input
           type="text"
           className="form-control"

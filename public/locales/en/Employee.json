@@ -5,6 +5,8 @@
     "employeeAddress":"Employee Address",
     "employeeEmail":"Employee Email",
     "action":"Action",
-    "employee":"Employee"
-
+    "employee":"Employee",
+    "address":"Address",
+    "email":"Email",
+    "updateUser":"Update User"
 }

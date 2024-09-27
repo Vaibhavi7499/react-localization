@@ -1,10 +1,13 @@
 {
-    "employeeManagemenySystem" : "कर्मचारी व्यवस्थापन प्रणाली",
-    "addUser" :"वापरकर्ता जोडा",
-    "employeeName":"कर्मचारी नाव",
-    "employeeAddress":"कर्मचाऱ्यांचा पत्ता",
-    "employeeEmail":"कर्मचारी ईमेल",
-    "action":"कृती",
-    "employee":"कर्मचारी"
+  "employeeManagemenySystem": "कर्मचारी व्यवस्थापन प्रणाली",
+  "addUser": "वापरकर्ता जोडा",
+  "employeeName": "कर्मचारी नाव",
+  "employeeAddress": "कर्मचाऱ्यांचा पत्ता",
+  "employeeEmail": "कर्मचारी ईमेल",
+  "action": "कृती",
+  "employee": "कर्मचारी",
+  "address": "पत्ता",
+  "email": "ईमेल",
+  "updateUser":"वापरकर्ता अद्यतनित करा"
 
 }

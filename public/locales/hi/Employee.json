@@ -1,10 +1,13 @@
 {
-    "employeeManagemenySystem" : "कर्मचारी प्रबंधन प्रणाली",
-    "addUser" :"उपयोगकर्ता जोड़ें",
-    "employeeName":"कर्मचारी का नाम",
-    "employeeAddress":"कर्मचारी का पता",
-    "employeeEmail":"कर्मचारी ईमेल",
-    "action":"कार्रवाई",
-    "employee":"कर्मचारी"
+  "employeeManagemenySystem": "कर्मचारी प्रबंधन प्रणाली",
+  "addUser": "उपयोगकर्ता जोड़ें",
+  "employeeName": "कर्मचारी का नाम",
+  "employeeAddress": "कर्मचारी का पता",
+  "employeeEmail": "कर्मचारी ईमेल",
+  "action": "कार्रवाई",
+  "employee": "कर्मचारी",
+  "address": "पता",
+  "email": "ईमेल",
+  "updateUser":"उपयोगकर्ता को अद्यतन करें"
 
 }

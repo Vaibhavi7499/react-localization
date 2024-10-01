@@ -67,7 +67,7 @@ const AddUser = () => {
       </div>
 
       <button class="btn btn-primary addbtn" onClick={addEmpData}>
-        {params?.empId ? "Update User" : "Add User"}
+        {params?.empId ? t("updateUser") : t("addUser")}
       </button>
     </div>
   );

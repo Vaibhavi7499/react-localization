@@ -7,12 +7,16 @@ import Emp from './component/Emp/Emp'
 import AddUser from './component/User/AddUser'
 import Login from './component/Login/Login'
 import ProtectedRoutes from './ProtectedRoutes/ProtectedRoutes'
+import HoverCounter from './component/counter/HoverCounter'
+import ButtonCounter from './component/counter/ButtonCounter'
 
 
 
 const App = () => {
   return (
     <div>
+      <HoverCounter/>
+      <ButtonCounter/>
       <Layout/>
       <Routes>
         <Route path='/' element={<Navigate to="/login" />} />
@@ -25,6 +29,7 @@ const App = () => {
         <Route path='/edituser/:empId' element={<AddUser/>}/>
         </Route>
       </Routes>
+
     </div>
   )
 }
